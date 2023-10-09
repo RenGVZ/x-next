@@ -1,7 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Sidebar from './components/Sidebar'
+import Sidebar from './components/SideBar'
 import AuthProvider from './context/AuthProvider'
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -24,7 +24,7 @@ export default function RootLayout({
       >
         <AuthProvider>
           <Sidebar />
-          <main className="flex justify-center items-start p-6 min-h-screen">
+          <main className="flex justify-center items-start px-6 min-h-screen w-full">
             {children}
           </main>
         </AuthProvider>

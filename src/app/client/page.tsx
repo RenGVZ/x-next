@@ -1,9 +1,9 @@
-'use client'
+"use client"
 // Remember you must use an AuthProvider for
 // client components to useSession
 import { useSession } from "next-auth/react"
 import { redirect } from "next/navigation"
-import UserCard from "../components/UserCard"
+import UserCard from "../components/shared/UserCard"
 
 const ClientPage = () => {
   const { data: session } = useSession({
