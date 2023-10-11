@@ -1,5 +1,5 @@
 import Link from "next/link"
-import TwitterIcon from "@/assets/icons/TwitterIcon"
+import TwitterIcon from "@/assets/icons/sidebar/TwitterIcon"
 import { SidebarMenu } from "@/config/sidebarMenu"
 
 const Sidebar = () => {

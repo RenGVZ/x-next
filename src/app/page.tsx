@@ -3,8 +3,9 @@ import { getServerSession } from "next-auth"
 import UserCard from "./components/shared/UserCard"
 import MiddleLayout from "./components/Layouts/MiddleLayout"
 import RightLayout from "./components/Layouts/RightLayout"
+import TweetBox from "./components/Home/TweetBox"
 
-export default async function Home() {
+export default function Home() {
   return (
     <>
       <MiddleLayout>
@@ -19,11 +20,12 @@ export default async function Home() {
             </div>
           </div>
         </div>
+      <TweetBox />
       </MiddleLayout>
 
-     <RightLayout>
+      <RightLayout>
         <h1>Search</h1>
-     </RightLayout>
+      </RightLayout>
     </>
   )
   // const session = await getServerSession(options)
