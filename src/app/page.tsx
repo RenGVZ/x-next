@@ -4,6 +4,7 @@ import UserCard from "./components/shared/UserCard"
 import MiddleLayout from "./components/Layouts/MiddleLayout"
 import RightLayout from "./components/Layouts/RightLayout"
 import TweetBox from "./components/Home/TweetBox"
+import TweetCard from "./components/Home/TweetCard"
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           </div>
         </div>
       <TweetBox />
+      <TweetCard />
       </MiddleLayout>
 
       <RightLayout>
