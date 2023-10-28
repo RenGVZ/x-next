@@ -1,0 +1,15 @@
+name: "Test GH action"
+
+on:
+  push:
+    branches: ['main']
+
+jobs:
+  main-push-test-job:
+    rund-on: ubuntu-latest
+    steps:
+       -name: 'Say Hello'
+       run: echo "Hello"
+
+       -name: 'Get date'
+       run: echo "Date is $(date)"
