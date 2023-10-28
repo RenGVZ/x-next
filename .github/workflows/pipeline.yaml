@@ -1,10 +1,11 @@
-name: Deployment Pipeline
+name: "Deployment Pipeline"
 
 on:
   push:
     branches: ['main']
 
-jobs: Deploy pipeline
+jobs:
+  deploy-pipeline-job:
   runs-on: ubuntu-latest
   steps:
       - uses: actions/checkout@v3
