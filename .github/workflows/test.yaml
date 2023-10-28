@@ -8,5 +8,5 @@ jobs:
   main-push-test-job:
     rund-on: ubuntu-latest
     steps:
-       -name: 'Say Hello'
-       run: echo "Hello"
+      - name: Say Hello
+        run: echo "Hello"
