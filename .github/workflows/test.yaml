@@ -10,6 +10,3 @@ jobs:
     steps:
        -name: 'Say Hello'
        run: echo "Hello"
-
-       -name: 'Get date'
-       run: echo "Date is $(date)"
