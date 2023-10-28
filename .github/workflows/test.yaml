@@ -11,4 +11,4 @@ jobs:
       - name: Say Hello
         run: echo "Hello"
       - name: Get date
-        run: `the date is ${date}`
+        run: echo "the date is $(date)"
